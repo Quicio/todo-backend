@@ -1,0 +1,45 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "nodejs@latest": {
+      "last_modified": "2023-12-25T10:13:25Z",
+      "resolved": "github:NixOS/nixpkgs/e1fa12d4f6c6fe19ccb59cac54b5b3f25e160870#nodejs_21",
+      "source": "devbox-search",
+      "version": "21.5.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/v8vw6h0agr1687qp1azgffg4h172w2ap-nodejs-21.5.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/wrgj8cbi8j99k1v9g2kddil5dwnjcjzp-nodejs-21.5.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/cc7bhvkx351rsfx7wja5wxnqxis4mj9g-nodejs-21.5.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/jra6nl09vh0grv4s7m3q778havhs1l6i-nodejs-21.5.0"
+        }
+      }
+    },
+    "sqlite@latest": {
+      "last_modified": "2023-12-20T20:44:49Z",
+      "resolved": "github:NixOS/nixpkgs/2b9c57d33e3d5be6262e124fc66e3a8bc650b93d#sqlite",
+      "source": "devbox-search",
+      "version": "3.43.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/wzi81bsqri0xr27qqnb75f66fkyi8cj5-sqlite-3.43.2-bin"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/66h93h6kan55pm3i338k3zhcvmzrxlmv-sqlite-3.43.2-bin"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/jbrrymrck4bxa19y1rvyfsi6nmxw0r2x-sqlite-3.43.2-bin"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/c1r78xcyvkkvsax259d9v4k787bfvv7j-sqlite-3.43.2-bin"
+        }
+      }
+    }
+  }
+}
