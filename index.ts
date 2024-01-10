@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import dotenv from "dotenv";
 import sqlite3 from "sqlite3";
+import cors from "cors";
 
 
 dotenv.config();
@@ -17,6 +18,8 @@ const db = new sqlite3.Database('./todos.db');
 
 const app = express();
 app.use(express.json());
+app.use(cors());
+
 
 app.get('/', (req: Request, res: Response) => {
   res.send("Server Online");
